@@ -4,10 +4,13 @@
 
   <groupId>com.realdolmen.brentvw.module</groupId>
   <artifactId>module-root</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>module-root</name>
-
+  <scm>
+    <developerConnection>scm:git:git@github.com:bvwman/maven-test.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
